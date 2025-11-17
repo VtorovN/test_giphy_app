@@ -1,0 +1,61 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+
+  exclude:
+    - '**.g.dart'
+    - '**.gr.dart'
+
+formatter:
+  trailing_commas: preserve
+  page_width: 120
+
+linter:
+  rules:
+    always_declare_return_types: true
+    always_use_package_imports: true
+    avoid_classes_with_only_static_members: true
+    avoid_dynamic_calls: true
+    avoid_empty_else: true
+    avoid_field_initializers_in_const_classes: true
+    avoid_init_to_null: true
+    avoid_print: true
+    avoid_redundant_argument_values: true
+    avoid_setters_without_getters: true
+    avoid_slow_async_io: true
+    avoid_unnecessary_containers: true
+    camel_case_extensions: true
+    constant_identifier_names: true
+    curly_braces_in_flow_control_structures: true
+    depend_on_referenced_packages: true
+    directives_ordering: true
+    empty_constructor_bodies: true
+    no_logic_in_create_state: true
+    prefer_bool_in_asserts: true
+    prefer_const_constructors: true
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    prefer_if_null_operators: true
+    prefer_is_empty: true
+    prefer_mixin: true
+    prefer_null_aware_operators: true
+    prefer_single_quotes: true
+    prefer_typing_uninitialized_variables: true
+    require_trailing_commas: true
+    sized_box_for_whitespace: true
+    throw_in_finally: true
+    unnecessary_await_in_return: true
+    unnecessary_getters_setters: true
+    unnecessary_lambdas: true
+    unnecessary_this: true
+    use_function_type_syntax_for_parameters: true
+    use_full_hex_values_for_flutter_colors: true
+    use_super_parameters: true
+    use_truncating_division: true
+    avoid_futureor_void: true
+    document_ignores: true
+    unintended_html_in_doc_comment: true
+    missing_code_block_language_in_doc_comment: true
+    unnecessary_library_name: true

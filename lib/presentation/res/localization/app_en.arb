@@ -1,0 +1,81 @@
+{
+  "@@locale": "en",
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button label"
+  },
+  "errorServerConnection": "Server connection error",
+  "@errorServerConnection": {
+    "description": "Shown when there is a connection error to the server"
+  },
+  "errorWithCodeMessage": "Error {code}: {message}",
+  "@errorWithCodeMessage": {
+    "description": "Generic server error with code and message",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "500"
+      },
+      "message": {
+        "type": "String",
+        "example": "Internal Server Error"
+      }
+    }
+  },
+  "errorUnknown": "Unknown error",
+  "@errorUnknown": {
+    "description": "Fallback error message when error type is unknown"
+  },
+  "errorLoadingGifs": "Error loading gifs",
+  "@errorLoadingGifs": {
+    "description": "Shown when the first page of GIFs fails to load"
+  },
+  "errorLoadingMoreGifs": "Error loading more gifs",
+  "@errorLoadingMoreGifs": {
+    "description": "Shown when loading next page of GIFs fails"
+  },
+  "emptyNoGifsFound": "No gifs found",
+  "@emptyNoGifsFound": {
+    "description": "Shown when a GIF search yields no results"
+  },
+  "titleGifDetails": "GIF Details",
+  "@titleGifDetails": {
+    "description": "App bar title for GIF details screen"
+  },
+  "gifUntitled": "Untitled GIF",
+  "@gifUntitled": {
+    "description": "Placeholder title when a GIF has no title"
+  },
+  "errorLoading": "Loading error",
+  "@errorLoading": {
+    "description": "Generic loading error"
+  },
+  "dateUnknown": "Unknown date",
+  "@dateUnknown": {
+    "description": "Shown when no date is available"
+  },
+  "metadataRating": "Rating: {rating}",
+  "@metadataRating": {
+    "description": "Label for GIF rating",
+    "placeholders": {
+      "rating": {
+        "type": "String",
+        "example": "PG-13"
+      }
+    }
+  },
+  "metadataUploaded": "Uploaded: {date}",
+  "@metadataUploaded": {
+    "description": "Label for GIF uploaded/import date",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Tuesday, January 1, 2024"
+      }
+    }
+  },
+  "metadataLowContrast": "Low contrast",
+  "@metadataLowContrast": {
+    "description": "Indicator that the GIF has low contrast"
+  }
+}
