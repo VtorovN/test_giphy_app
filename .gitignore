@@ -53,6 +53,7 @@ config.json
 *.gr.dart
 *.freezed.dart
 injection.config.dart
+*.mocks.dart
 
 # Localization utils
 **/untranslated_messages.txt
