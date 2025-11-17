@@ -1,8 +1,20 @@
 # test_giphy_app
 
+## Description
+A simple Flutter application that fetches and displays gifs from a public [Giphy API](https://api.giphy.com/).
+
 ## SDK
 - Flutter: 3.38.1
 - Dart: 3.10.0
+
+## Stack
+- Flutter
+- State Management: Bloc
+- HTTP Client: Retrofit + Dio
+- Dependency Injection: GetIt + Injectable
+- Serialization: JsonSerializable
+- Navigation: AutoRoute
+- Tests: Flutter Test, Mockito
 
 ## To run
 - Run `flutter pub get`
@@ -18,3 +30,4 @@
     }
     ```
 - Run project with `--dart-define-from-file` argument providing config name, e.g. `flutter run --dart-define-from-file=config.json`
+- 
